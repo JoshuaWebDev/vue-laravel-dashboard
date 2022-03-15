@@ -16,7 +16,7 @@
                             <label for="exampleInputPassword1">Senha</label>
                             <input type="password" class="form-control mb-4" id="exampleInputPassword1">
                         </div>
-                        <button type="submit" class="btn btn-primary p-2">Entrar</button>
+                        <button type="submit" class="btn btn-primary p-2" @click="login">Entrar</button>
                     </form>
                 </div>
             </div>
@@ -26,7 +26,17 @@
 
 <script>
 export default {
-    
+    name: 'LoginComponent',
+    data() {
+        return {
+
+        }
+    },
+    methods: {
+        login() {
+            this.$router.push({name: 'home'})
+        }
+    }
 }
 </script>
 
