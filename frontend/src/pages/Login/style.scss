@@ -1,0 +1,29 @@
+@import '@/assets/scss/_reset';
+@import '@/assets/scss/_main';
+
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content-login {
+        align-items: center;
+        background-color: $purple;
+        border-radius: 8px;
+        display: flex;
+        height: 450px;
+        justify-content: center;
+        width: 400px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        h1 {
+            color: $white;
+        }
+    }
+}
