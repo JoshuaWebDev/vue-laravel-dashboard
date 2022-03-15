@@ -5,6 +5,20 @@
                 <header>
                     <h1>Login</h1>
                 </header>
+
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">E-mail</label>
+                            <input type="email" class="form-control mb-4" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Senha</label>
+                            <input type="password" class="form-control mb-4" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary p-2">Entrar</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
