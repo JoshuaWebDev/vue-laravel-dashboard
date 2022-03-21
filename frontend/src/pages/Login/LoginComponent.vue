@@ -25,19 +25,19 @@
 </template>
 
 <script>
-export default {
-    name: 'LoginComponent',
-    data() {
-        return {
+    export default {
+        name: 'LoginComponent',
+        data() {
+            return {
 
-        }
-    },
-    methods: {
-        login() {
-            this.$router.push({name: 'home'})
+            }
+        },
+        methods: {
+            login() {
+                this.$router.push({name: 'home'})
+            }
         }
     }
-}
 </script>
 
 <style lang="scss" src="./style.scss" scoped />
